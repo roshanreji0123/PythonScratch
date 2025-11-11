@@ -1,23 +1,24 @@
 # 🐍 PythonScratch
 
-A personal Python workspace where I learn, experiment, and build small programs to strengthen my logic and problem-solving.  
-Each folder in this repository represents a self-contained Python project — focused on one concept or idea at a time.
+A personal Python workspace where I learn, experiment, and build small programs to strengthen logic and problem-solving.  
+Each file in this repository represents a self-contained Python project — focused on one idea or concept at a time.
 
 ---
 
 ## 📂 Projects
-
-| Folder | Description |
-|---------|--------------|
-| `number_analyzer` | Contains programs that analyze numbers — check if they’re prime, even, or odd, and perform range-based actions (factorial, divisors, or stars). Includes `functions_numbers.py` for modular logic and `import_functions.py` demonstrating imports and reusability. |
+| File | Description |
+|------|--------------|
+| `number_analyzer.py` | The first version of the number analyzer — checks if a number is prime, even, or odd, and performs range-based actions like factorial, divisor listing, or star printing. |
+| `functions_numbers.py` | A modular, improved version — breaks down the  logic into separate functions for better structure, readability, and reuse. |
+| `import_functions.py` | Demonstrates how to import and reuse functions from `functions_numbers.py` in another script. |
 | *(more projects coming soon)* | Logic exercises, pattern programs, and experiments as I keep learning. |
 
 ---
 
 ## 🎯 Current Focus
-- Writing clear, modular, and readable Python code  
+- Writing clear, modular, and reusable Python code  
 - Understanding how Python executes logic internally  
-- Strengthening fundamentals before exploring advanced concepts like backend and system design  
+- Building a solid foundation before moving into advanced topics like backend and system design  
 
 ---
 
@@ -26,7 +27,8 @@ Hi, I’m **Roshan Reji** — a developer in progress, exploring how things work
 
 📍 Kerala, India  
 🌐 [github.com/roshanreji0123](https://github.com/roshanreji0123)  
-✉️ [roshanreju017@email.com](mailto:roshanreju017@email.com)
+✉️ [roshanreji@email.com](mailto:roshanreji@email.com)
 
 ---
- 
+
+⭐ *“Consistent small steps lead to strong foundations.”*
