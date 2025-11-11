@@ -24,7 +24,7 @@ Each file or folder in this repository represents a self-contained Python projec
 ---
 
 ## 👤 About
-Hi, I’m **Roshan Reji** — a developer in progress, exploring how things work under the hood while staying consistent, curious, and grounded in growth.
+Hi, I’m **Roshan Reji Varughese** — a developer in progress, exploring how things work under the hood while staying consistent, curious, and grounded in growth.
 
 📍 Kerala, India  
 🌐 [github.com/roshanreji0123](https://github.com/roshanreji0123)  
