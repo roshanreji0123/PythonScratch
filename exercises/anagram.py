@@ -1,31 +1,46 @@
 #anagram.py
+# anagram.py
 print("Enter two words.\n")
-word_one=input("1)")
-word_two=input("2)")
-visited=""
-check=True
-for one in word_one.strip():
+word_one = input("1) ").strip()
+word_two = input("2) ").strip()
+
+# Quick length check
+if len(word_one) != len(word_two):
+    print("Not anagram")
+    exit()
+
+visited = ""
+check = True
+
+for one in word_one:
+    # Skip if  already counted this character
     if one in visited:
         continue
-    count=0
-    for two in word_two.strip():
-        if(one==two):
-            count=count+1
-    count2=0
-    for one_char in word_one.strip():
-        if(one_char==two):
-            count2=count2+1
-    if(count2==count):
-        visited=visited+one
-        
+
+    # Count occurrences of 'one' in word_two
+    count = 0
+    for two in word_two:
+        if one == two:
+            count += 1
+
+    # Count occurrences of 'one' in word_one
+    count2 = 0
+    for one_char in word_one:
+        if one_char == one:      # 🔥 FIXED BUG
+            count2 += 1
+
+    # Compare frequencies
+    if count2 == count:
+        visited += one
     else:
-        
-        check=False
+        check = False
         break
-if check==False:
+
+# Final result
+if check == False:
     print("Not anagram")
 else:
-    print("anagram")
+    print("Anagram")
 
 
     

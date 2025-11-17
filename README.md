@@ -1,35 +1,33 @@
-# 🐍 PythonScratch
+# 🧩 Data Structures in Python
 
-A personal Python workspace where I learn, experiment, and build small programs to strengthen logic and problem-solving.  
-Each file or folder in this repository represents a self-contained Python project — focused on one concept or idea at a time.
-
----
-
-## 📂 Projects
-| File/Folder | Description |
-|--------------|--------------|
-| `number_analyzer.py` | The first version of the number analyzer — checks if a number is prime, even, or odd, and performs range-based actions like factorial, divisor listing, or star printing. |
-| `functions_numbers.py` | A modular, improved version — breaks down the logic into separate functions for better structure, readability, and reuse. |
-| `import_functions.py` | Demonstrates how to import and reuse functions from `functions_numbers.py` in another script. |
-| `DataStructures/` | Contains programs exploring Python data structures — focusing on lists, nested lists, and real-world use cases of lists, tuples, and dictionaries. |
-| *(more projects coming soon)* | Logic exercises, pattern programs, and experiments as I keep learning. |
+This folder contains programs exploring Python’s core data structures and how they are used to model simple real-world problems.  
+Each script is small, focused, and designed to build clarity through hands-on examples.
 
 ---
 
-## 🎯 Current Focus
-- Writing clear, modular, and reusable Python code  
-- Understanding how Python executes logic internally  
-- Building a strong foundation before moving into advanced topics like backend development and system design  
+## 📘 Contents
+| File | Description |
+|------|-------------|
+| `exploring_lists.py` | Basic list operations: indexing, slicing, mutability, adding/removing elements. |
+| `studentdata_listbased.py` | Mini student-record system using nested lists (totals, averages, toppers). |
+| `exploring_tuples.py` | Working with tuples, immutability, and basic methods like `count()` and `index()`. |
+| `sales_tuplebased.py` | Menu-driven sales viewer using tuples as grouped data. |
+| `exploring_dicts.py` | Introduction to dictionaries and key–value storage. |
+| `license_dictbased.py` | Simple dictionary-based student license register, checking age eligibility. |
+| `exploring_ranges.py` | Understanding the `range()` object and how it behaves in loops. |
+| `recap.py` | A combined revision script covering lists, tuples, dictionaries, and ranges. |
 
 ---
 
-## 👤 About
-Hi, I’m **Roshan Reji Varughese** — a developer in progress, exploring how things work under the hood while staying consistent, curious, and grounded in growth.
-
-📍 Kerala, India  
-🌐 [github.com/roshanreji0123](https://github.com/roshanreji0123)  
-✉️ [roshanreju017@email.com](mailto:roshanreju017@email.com)
+## 🎯 Purpose
+- Build a clear understanding of Python’s **mutable and immutable** structures.  
+- Learn how to choose the right structure for each type of data.  
+- Strengthen logic and data modeling before working with databases or backend APIs.  
 
 ---
 
-⭐ *“Consistent small steps lead to strong foundations.”*
+## 🧠 Notes
+- Each program is standalone and runnable.  
+- Focus is on clarity and concept-building rather than optimization.  
+- These fundamentals will directly help in **Django/FastAPI + MySQL** projects later.
+

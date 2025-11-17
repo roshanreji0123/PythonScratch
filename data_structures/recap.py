@@ -37,7 +37,7 @@ def employee_performance(Employees):
         print("⚠️ No employee records available.")
         return
 
-    print("\n📊 Employee Performance Report")
+    print("\n Employee Performance Report")
     print("-" * 50)
     for id, info in Employees.items():
         name, aadhar, age, salary, score = info
@@ -59,17 +59,13 @@ def main():
             employee_entry(Employees)
         elif choice == "2":
             employee_performance(Employees)
-            overall_performancee(Employees)
         elif choice == "3":
             print("👋 Exiting tracker. Have a great day!")
             break
         else:
             print("❌ Invalid choice, please try again.")
 
-def overall_performancee(Employees):
-    for id,info in Employees.items():
-        pass 
-        
+
 
  
 if __name__ == "__main__":
