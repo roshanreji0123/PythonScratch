@@ -26,7 +26,7 @@ for one in word_one:
     # Count occurrences of 'one' in word_one
     count2 = 0
     for one_char in word_one:
-        if one_char == one:      # 🔥 FIXED BUG
+        if one_char == one:      
             count2 += 1
 
     # Compare frequencies
