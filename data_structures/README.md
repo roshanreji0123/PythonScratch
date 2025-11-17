@@ -1,29 +1,33 @@
 # 🧩 Data Structures in Python
 
-This folder contains programs exploring **Python data structures** and their practical applications in problem-solving.
+This folder contains programs exploring Python’s core data structures and how they are used to model simple real-world problems.  
+Each script is small, focused, and designed to build clarity through hands-on examples.
 
 ---
 
 ## 📘 Contents
 | File | Description |
-|-------|--------------|
-| `exploring_lists.py` | Demonstrates basic list operations such as insertion, deletion, mutability, and core functions. |
-| `studentdata_listbased.py` | A mini program managing student data using nested lists, computing totals, averages, and identifying toppers. |
-| `exploring_tuples.py` | Demonstrates tuple operations such as `count()` and `index()`. |
-| `sales_tuplebased.py` | A menu-driven program to record and view sales using tuples. |
-| `exploring_dicts.py` | Demonstrates fundamental dictionary operations and key-value behavior. |
-| `license_dictbased.py` | A menu-driven dictionary-based program that implements a Student License Register to determine driving eligibility by age. |
+|------|-------------|
+| `exploring_lists.py` | Basic list operations: indexing, slicing, mutability, adding/removing elements. |
+| `studentdata_listbased.py` | Mini student-record system using nested lists (totals, averages, toppers). |
+| `exploring_tuples.py` | Working with tuples, immutability, and tuple methods like `count()` and `index()`. |
+| `sales_tuplebased.py` | Menu-driven sales viewer using tuples as grouped data. |
+| `exploring_dicts.py` | Introduction to dictionaries and key–value storage. |
+| `license_dictbased.py` | Simple dictionary-based student license register with age-eligibility logic. |
+| `exploring_ranges.py` | Understanding the `range()` object and how it behaves in loops. |
+| `recap.py` | A combined revision script covering lists, tuples, dictionaries, and ranges. |
 
 ---
 
 ## 🎯 Purpose
-This module aims to:
-- Develop a deeper understanding of Python’s mutable and immutable data structures.
-- Represent real-world problems using lists, tuples, and dictionaries.
-- Strengthen logic-building skills and practical comprehension of core programming structures.
+- Build a clear understanding of Python’s **mutable and immutable** structures  
+- Learn how to choose the right structure for the right type of data  
+- Strengthen logic and data modeling before working with databases or backend APIs  
 
 ---
 
 ## 🧠 Notes
-- Each program is standalone and can be executed directly.  
-- The focus is on **clarity, structure, and logic** rather than algorithmic optimization.
+- Each program is standalone and runnable  
+- Focus is on clarity and concept-building rather than optimization  
+- These fundamentals directly support future learning in **Django/FastAPI + MySQL**  
+

@@ -1,33 +1,53 @@
-# 🧩 Data Structures in Python
+# 🐍 PythonScratch
 
-This folder contains programs exploring Python’s core data structures and how they are used to model simple real-world problems.  
-Each script is small, focused, and designed to build clarity through hands-on examples.
-
----
-
-## 📘 Contents
-| File | Description |
-|------|-------------|
-| `exploring_lists.py` | Basic list operations: indexing, slicing, mutability, adding/removing elements. |
-| `studentdata_listbased.py` | Mini student-record system using nested lists (totals, averages, toppers). |
-| `exploring_tuples.py` | Working with tuples, immutability, and basic methods like `count()` and `index()`. |
-| `sales_tuplebased.py` | Menu-driven sales viewer using tuples as grouped data. |
-| `exploring_dicts.py` | Introduction to dictionaries and key–value storage. |
-| `license_dictbased.py` | Simple dictionary-based student license register, checking age eligibility. |
-| `exploring_ranges.py` | Understanding the `range()` object and how it behaves in loops. |
-| `recap.py` | A combined revision script covering lists, tuples, dictionaries, and ranges. |
+A personal Python workspace where I learn, experiment, and build small programs to strengthen my logic, fundamentals, and understanding of how systems work.  
+Each folder represents a focused area of learning — from core Python basics to data structures and logic-building exercises.
 
 ---
 
-## 🎯 Purpose
-- Build a clear understanding of Python’s **mutable and immutable** structures.  
-- Learn how to choose the right structure for each type of data.  
-- Strengthen logic and data modeling before working with databases or backend APIs.  
+## 📁 Repository Structure
+
+### **1. fundamentals/**
+Core Python basics and exploration of functions, modularity, and simple number-processing logic.  
+Contains foundational scripts that build understanding and clarity in Python syntax and execution.
 
 ---
 
-## 🧠 Notes
-- Each program is standalone and runnable.  
-- Focus is on clarity and concept-building rather than optimization.  
-- These fundamentals will directly help in **Django/FastAPI + MySQL** projects later.
+### **2. exercises/**
+Short, standalone Python programs focused on improving logic and problem-solving.  
+Each file targets one concept — string processing, loops, decisions, and small algorithms.
 
+---
+
+### **3. data_structures/**
+Programs exploring Python’s built-in data structures — **lists, tuples, dictionaries, and ranges** — with real-world style examples and a recap script.
+
+---
+
+## 🎯 Current Focus
+- Strengthening Python fundamentals through small, focused programs  
+- Understanding how logic builds into larger systems  
+- Preparing for backend development by improving clarity in data handling and flow  
+- Keeping learning structured and simple before moving into Django/FastAPI + MySQL  
+
+---
+
+## 🚀 Upcoming Additions
+This repository will gradually expand to include:
+- Small backend/API projects  
+- Django / FastAPI practice modules  
+- MySQL-integrated applications  
+- More structured logic exercises and utilities  
+
+---
+
+## 👤 About Me
+I’m **Roshan Reji Varughese** — a developer in progress, building foundations in programming while staying curious, consistent, and grounded.
+
+📍 Kerala, India  
+🌐 GitHub: github.com/roshanreji0123  
+✉️ Email: roshanreju017@gmail.com  
+
+---
+
+⭐ *“Consistent, honest effort builds strong foundations — one step at a time.”*
