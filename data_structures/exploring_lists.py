@@ -20,3 +20,4 @@ if __name__ == "__main__":
 
     numbers.clear()#clearing the values in the list
     print("After clear:", numbers)
+numbers.insert(2,"HEY")
