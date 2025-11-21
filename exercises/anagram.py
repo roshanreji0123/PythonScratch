@@ -1,10 +1,10 @@
-#anagram.py
+
 # anagram.py
 print("Enter two words.\n")
 word_one = input("1) ").strip()
 word_two = input("2) ").strip()
 
-# Quick length check
+
 if len(word_one) != len(word_two):
     print("Not anagram")
     exit()
@@ -13,7 +13,7 @@ visited = ""
 check = True
 
 for one in word_one:
-    # Skip if  already counted this character
+    # Skip if  already counted
     if one in visited:
         continue
 
@@ -41,6 +41,7 @@ if check == False:
     print("Not anagram")
 else:
     print("Anagram")
+
 
 
     
