@@ -16,6 +16,7 @@ Each script is small, focused, and designed to build clarity through hands-on ex
 | `license_dictbased.py` | Simple dictionary-based student license register with age-eligibility logic. |
 | `exploring_ranges.py` | Understanding the `range()` object and how it behaves in loops. |
 | `recap.py` | A combined revision script covering lists, tuples, dictionaries, and ranges. |
+| `valid_parantheses.py` | A stack based valid parantheses checker for strings. |
 
 ---
 

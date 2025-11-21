@@ -24,17 +24,29 @@ Programs exploring Python’s built-in data structures — **lists, tuples, dict
 
 ---
 
-## 🎯 Current Focus
-- Strengthening Python fundamentals through small, focused programs  
-- Understanding how logic builds into larger systems  
-- Preparing for backend development by improving clarity in data handling and flow  
-- Keeping learning structured and simple before moving into Django/FastAPI + MySQL  
+### **4. projects/fastapi_demo/**
+A small FastAPI practice module demonstrating backend fundamentals.
 
+Contains:
+- `get_request.py` → simple GET route  
+- `post_request.py` → POST with request body  
+- `mini_fastapiapp.py` → in-memory CRUD API using REST principles  
+
+This folder marks the start of backend development with FastAPI.
+
+---
+
+## 🎯 Current Focus
+- Strengthening Python fundamentals through clear,structured programs  
+- Understanding how logic builds into larger systems  
+- Practicing data handling and flow — essential for backend development  
+- Preparing to integrate Python with FastAPI and MySQL 
+ 
 ---
 
 ## 🚀 Upcoming Additions
 This repository will gradually expand to include:
-- Small backend/API projects  
+- Larger backend/API projects  
 - Django / FastAPI practice modules  
 - MySQL-integrated applications  
 - More structured logic exercises and utilities  
